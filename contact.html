@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Shop</title>
+    <meta name="description" content="さいたま市南区にある株式会社ぬくもりが運営する認可小規模保育園のめばえ保育園です。家庭的で温かい第２のおうちのような保育園を目指しています。リトミックや英語、縦割り保育など子供たちにとってよりよい刺激となる取り組みにも力を入れています。">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3ac0af6748.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/logo/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="sp-logo"><img src="./images/logo/sp-logo.png" alt="SP用ロゴ画像"></a>
+        <!--pcロゴ-->
+        <a href="index.html" class="pc-logo"><img src="./images/logo/pc-logo.png" alt="pc用ロゴ画像"></a>
+
+        <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu" aria-hidden="true"></i></div>
+        <div class="sp-nav">
+            <ul class="sp-nav-list">
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>HOME</span></a></li>
+                <li><a href="about.html"><i class="fa fa-heart" aria-hidden="true"></i><span>わたしたちについて</span></a></li>
+                <li><a href="state.html"><i class="fa fa-smile"></i><span>園でのようす</span></a></li>
+                <li><a href="news.html"><i class="fa fa-bell" aria-hidden="true"></i><span>お知らせ</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i><span>お問い合わせ</span></a></li>
+            </ul>
+        </div>
+        <!--pcナビゲーション-->
+        <div class="pc-nav">
+            <ul class="pc-nav-list">
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>HOME</span></a></li>
+                <li><a href="about.html"><i class="fa fa-heart" aria-hidden="true"></i><span>わたしたちについて</span></a></li>
+                <li><a href="state.html"><i class="fa fa-smile"></i><span>園でのようす</span></a></li>
+                <li><a href="news.html"><i class="fa fa-bell" aria-hidden="true"></i><span>お知らせ</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i><span>お問い合わせ</span></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="cover pc-cover">
+            <h3 class="contact-cover-title">お問い合わせ</h3>
+            <p class="cover-text contact-cover-text">園見学、その他ご不明な点がございましたら</p>
+            <p class="cover-text contact-cover-text">お気軽にお問い合わせください。</p>
+        </div>
+        <div class="pc-container">
+            <section class="telephone">
+                <h2 class="section-title low-section-title">お電話でのお問い合わせ</h2>
+                <div class="container">
+                    <p class="contact-text">お急ぎの方はお電話からお問い合わせください。<br class="br">
+                        受付時間　平日8:00〜18:00<br class="br">
+                        ※土曜日は15時までです。
+                    </p>
+                    <address class="contact-address">
+                        <a href="tel:0000000000"><i class="fa fa-phone"></i>000-0000-000</a>
+                    </address>
+                </div>
+            </section>
+            <section class="mail">
+                <h2 class="section-title low-section-title">メールフォームでのお問い合わせ</h2>
+                <div class="container">
+                    <p class="contact-text">お問い合わせをご希望される方は下記フォームから必要事項をお送りください。<br class="contact-br">
+                        ご送信いただきました個人情報は下記目的以外には使用しません。</p>
+                    <form action="#" method="post">
+                        <table class="contact-table">
+                            <tbody>
+                                <tr>
+                                    <th class="form-item">お名前<span class="must">必須</span></th>
+                                    <td class="form-content"><input type="text" name="name" id="name" placeholder="例) めばえ太郎"></td>
+                                </tr>
+                                <tr>
+                                    <th class="form-item">お電話番号<span class="must">必須</span></th>
+                                    <td class="form-content"><input type="text" name="tell" id="tell" placeholder="例) 0000000000"></td>
+                                </tr>
+                                <tr>
+                                    <th class="form-item">メールアドレス<span class="must">必須</span></th>
+                                    <td class="form-content"><input type="text" name="mail" id="mail" placeholder="例) mebae.@gmail.com"></td>
+                                </tr>
+                                <tr>
+                                    <th class="form-item">確認のため、もう一度ご入力ください。</th>
+                                    <td class="form-content"><input type="text" name="mail2" id="mail2"></td>
+                                </tr>
+                                <tr>
+                                    <th class="form-item">お問い合わせ内容<span class="must">必須</span></th>
+                                    <td class="form-content"><textarea name="inquiry" id="inquiry" cols="30" rows="10"></textarea></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                    <div class="view-more contact-view">
+                        <a href="">送信する<i class="fa fa-angle-right"></i></a>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <section class="footer-nav">
+            <div class="pc-container">
+                <div class="logo">
+                    <a href="index.html" class="footer-logo"><img src="./images/logo/footer-sp-logo.png" alt="ロゴ画像"></a>
+                    <a href="index.html" class="pc-footer-logo"><img src="./images/logo/footer-pc-logo.png" alt="ロゴ画像"></a>
+                </div>
+                <ul class="info ">
+                    <li class="info-list"><a href="index.html"><i class="fa fa-angle-right"></i>HOME</a></li>
+                    <li class="info-list"><a href="about.html"><i class="fa fa-angle-right"></i>わたしたちについて</a></li>
+                    <li class="info-list"><a href="state.html"><i class="fa fa-angle-right"></i>園でのようす</a></li>
+                    <li class="info-list"><a href="news.html"><i class="fa fa-angle-right"></i>お知らせ</a></li>
+                    <li class="info-list"><a href="contact.html"><i class="fa fa-angle-right"></i>お問い合わせ</a></li>
+                    <li class="info-list"></li>
+                </ul>
+                <!--pc-footernav-->
+                <div class="pc-info">
+                    <ul class="pc-info-list">
+                        <li><a href="index.html"><i class="fa fa-angle-right"></i>HOME</a></li>
+                    </ul>
+                    <ul class="pc-info-list">
+                        <li class="sub-list-title"><a href="about.html"><i class="fa fa-angle-right"></i>わたしたちについて</a>
+                            <ul class="sub-list">
+                                <li><a href="about.html#philosophy">- 保育理念</a></li>
+                                <li><a href="about.html#activity">- 園での取り組み</a></li>
+                                <li><a href="about.html#overview">- 園の概要</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="pc-info-list">
+                        <li class="sub-list-title"><a href="state.html"><i class="fa fa-angle-right"></i>園でのようす</a>
+                            <ul class="sub-list">
+                                <li><a href="state.html#schedule">- 1日の流れ</a></li>
+                                <li><a href="state.html#annual-events">- 年間行事</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="pc-info-list">
+                        <li><a href="news.html"><i class="fa fa-angle-right"></i>お知らせ</a></li>
+                    </ul>
+                    <ul class="pc-info-list">
+                        <li><a href="contact.html"><i class="fa fa-angle-right"></i>お問い合わせ</a></li>
+                    </ul>
+                </div>
+
+                <address class="footer-tell">
+                    TEL <a href="tel:0000000000">000-0000-000</a>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <small>Copyright © めばえ保育園 All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/hamburger.js"></script>
+</body>
+
+</html>
